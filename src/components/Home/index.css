@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.home-route-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-route-container {
+    background-color: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+}
+.teams-list-container {
+  width: 90%;
+  max-width: 600px;
+}
+@media screen and (min-width: 768px) {
+  .teams-list-container {
+    padding: 30px;
+  }
+}
+.ipl-dashboard-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ipl-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .ipl-logo {
+    width: 70px;
+    height: 70px;
+  }
+}
+.ipl-dashboard-heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .ipl-dashboard-heading {
+    font-size: 40px;
+  }
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.teams-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 100%;
+}
